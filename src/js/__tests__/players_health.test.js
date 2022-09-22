@@ -1,4 +1,4 @@
-import getHealth from "../basic";
+import getHealth from "../players_health";
 
 test("Здоровье равно 0", () => {
   const health = getHealth({ name: "Маг", health: 0 });
